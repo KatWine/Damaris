@@ -1,0 +1,12 @@
+.about-container{
+    display: flex;
+    height: 90vh; 
+    background-image: url('src/Images/F35130F3-EC3D-41A3-A89C-1B04B363B12D.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: Papyrus;
+    font-size: 16px;
+}

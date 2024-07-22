@@ -1,0 +1,70 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .home-button.button-1 {
+    animation-delay: 3s;
+  }
+  
+  .home-button.button-2 {
+    animation-delay: 6s;
+  }
+  
+  .home-button.button-3 {
+    animation-delay: 9s;
+  }
+  
+ 
+  .home-button {
+    display: inline;
+    width: 200px;
+    height: 200px; 
+    padding: 10px;
+    margin: 20px; 
+    border: none;
+    border-radius: 50%; 
+    font-size: 20px;
+    font-family: Papyrus;
+    color: white;
+    background-color: #007bffaf; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+  .home-button:hover {
+    /* background-color: #2a72c0;  */
+    background-image: url('src/Images/LOGO.jpeg');
+    background-size: contain;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+  h1 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 30px; 
+    justify-content: center;
+    align-content: center;
+    font-family: Papyrus;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+  }
+  .home-button-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .home-container{
+    display: block;
+    padding: 10px;
+    margin-top: 25px;
+    
+  }
